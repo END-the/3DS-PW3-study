@@ -17,6 +17,7 @@ public class DisciplinaService {
     private DisciplinaRepository repository;
 
     private ModelMapper modelMapper = new ModelMapper();
+
     public List<DisciplinaResponseDTO> listar(){
         var disciplinas = repository.findAll();
         var resultado = disciplinas.stream().map(
