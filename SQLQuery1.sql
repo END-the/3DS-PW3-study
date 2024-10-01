@@ -54,6 +54,7 @@ INSERT INTO TBL_DISCIPLINA (TX_NOME) VALUES ('Educação Física');
 INSERT INTO TBL_DISCIPLINA (TX_NOME) VALUES ('Arte');
 INSERT INTO TBL_DISCIPLINA (TX_NOME) VALUES ('Inglês');
 
+
 INSERT INTO TBL_MONITOR (TX_NOME, TX_FOTO, TX_WHATSAPP, TX_EMAIL, TX_CONTEUDO, ID_DISCIPLINA) 
 VALUES ('João Silva', 'foto_joao.jpg', '11987654321', 'joao.silva@example.com', 'Aulas de Matemática e apoio individual.', 1);
 
