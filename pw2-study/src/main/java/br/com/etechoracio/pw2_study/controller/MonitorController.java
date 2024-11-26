@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/monitores")
+@CrossOrigin(origins = "*")
 public class MonitorController {
 
     @Autowired

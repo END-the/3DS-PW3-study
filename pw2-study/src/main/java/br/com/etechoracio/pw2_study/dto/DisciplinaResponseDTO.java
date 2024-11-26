@@ -5,5 +5,7 @@ import lombok.Getter;
 
 @Data //getter e setter junto
 public class DisciplinaResponseDTO {
+    private Long id;
     private String nome;
+
 }
